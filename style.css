@@ -10,14 +10,14 @@ body{
     width: 100%;
     height: 50px;
     background-color: orange;
+    display: flex;
+    justify-content: space-between;
 }
 .navText{
-    float: left;
     padding: 16px 50px;
     color: white;
 }
 .navList{
-    float: right;
     padding: 16px;
 }
 .navList li{
